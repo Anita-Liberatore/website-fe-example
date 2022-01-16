@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+/* General CSS */
 :root {
     --primary-color: #047aed;
     --secondary-color: #1c3fa8;
@@ -168,10 +169,13 @@ img {
 .cloud .grid {
     grid-template-columns: 4fr 3fr ;
 }
+
+/* Languages */
+
 .languages .flex {
     flex-wrap: wrap;
-}
-/* Languages */
+} 
+
 .languages .card {
     text-align: center;
     margin: 18px 10px 40px;

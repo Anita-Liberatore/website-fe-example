@@ -105,8 +105,38 @@
     color: #fff;
 }
 
+.bg-light-no-text {
+    background-color: var(--light-color);
+}
+
 .text-center {
   text-align: center;
+}
+
+/*Text */
+.text-primary {
+    color: var(--primary-color);
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff
 }
 
 /* Margin */
